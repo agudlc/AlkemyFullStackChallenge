@@ -24,7 +24,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     balance: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.FLOAT,
       allowNull: false,
       defaultValue: 0,
     },
